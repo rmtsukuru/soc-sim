@@ -1,0 +1,18 @@
+#main {
+}
+
+#main .left-col, #main .right-col {
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: top;
+}
+
+#main .left-col > .console-output {
+    min-height: 100px;
+    max-height: 200px;
+    border: 1px #222 solid;
+    overflow-y: auto;
+    width: 700px;
+    padding: 10px 30px;
+    font-family: 'Consolas', sans-serif;
+}
