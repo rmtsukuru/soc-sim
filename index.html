@@ -10,12 +10,26 @@
     </head>
     <body>
         <div id="main">
-            <div class="left-col">
-                <div class="console-output">
+            <div class="top-sec">
+                <div class="left-col">
+                    <div class="console-output">
+                    </div>
+                </div>
+                <div class="right-col">
+                    <button id="pauseButton">Pause</button>
                 </div>
             </div>
-            <div class="right-col">
-                <button id="pauseButton">Pause</button>
+            <div class="view-tabs">
+                <button data-view="map">Map</button>
+                <button data-view="humans">Humans</button>
+            </div>
+            <div class="view-container">
+                <div id="view-map">
+                    <p>Map view goes here.</p>
+                </div>
+                <div id="view-humans" style="display: none;">
+                    <p>Humans and such.</p>
+                </div>
             </div>
         </div>
         <script type="text/javascript" src="js/config.js"></script>

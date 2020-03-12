@@ -8,4 +8,10 @@ function setupInput() {
         }
         game.paused = !game.paused;
     });
+
+    $('.view-tabs > button').click(e => {
+        const view = $(e.target).data('view');
+        $('.view-container > div').hide();
+        $('.view-container > #view-' + view).show();
+    });
 }

@@ -1,6 +1,11 @@
 #main {
 }
 
+#main .top-sec {
+    min-height: 230px;
+    margin-bottom: 15px;
+}
+
 #main .left-col, #main .right-col {
     display: inline-block;
     margin: 0 5px;
